@@ -93,3 +93,40 @@
     transform: translateX(-100px);
   }
 }
+/* Fade Out Animation */
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fade-out {
+  position: absolute;
+  width: 18%;
+  right: 0px;
+  height: 85vh;
+  background-color: #353644;
+  -webkit-box-shadow: -8px 2px 6px 1px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: -8px 2px 6px 1px rgba(0, 0, 0, 0.16);
+  box-shadow: -8px 2px 6px 1px rgba(0, 0, 0, 0.16);
+  animation: fadeOut 1s ease 0s 1 forwards;
+  z-index: 1000;
+}

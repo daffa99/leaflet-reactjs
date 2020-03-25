@@ -21,7 +21,9 @@ class MainPage extends Component {
     className: "description-content"
   };
   /**
-   * Function to handle click in marker, it can center the map into the clicked marker and zoom it with value 17
+   * Function to handle click in marker and in sidebar, it can center the map into the clicked marker and selected place in sidebar and zoom it with value 17
+   *
+   * @param object
    */
   handleClick = item => {
     console.log(item);
@@ -35,7 +37,8 @@ class MainPage extends Component {
       longDescription: item.long_description,
       address: item.address,
       website: item.website,
-      show: true
+      show: true,
+      className: "description-content slide-left show"
     });
   };
   /**
@@ -45,34 +48,31 @@ class MainPage extends Component {
     this.setState({
       position: [1.28692, 103.85457],
       zoom: 15,
-      show: false
+      show: false,
+      className: "fade-out"
     });
   };
   /**
-   * Function to handle clicked place in sidebar, it will center the map on the clicked place
+   * Function to handle end animation, so the animation can run again. It change the state of Description Component's className.
    */
-  handlePlace = item => {
-    let position = [item.latitude, item.longitude];
-    this.setState({
-      position: position,
-      zoom: 17,
-      imageUrl: item.picture_url,
-      placeName: item.place_name,
-      shortDescription: item.short_description,
-      longDescription: item.long_description,
-      address: item.address,
-      website: item.website,
-      show: true
-    });
+  handleEndAnimation = () => {
+    if (this.state.show) {
+      this.setState({
+        className: "description-content hold"
+      });
+    }
   };
   render() {
     return (
       <div className="container-fluid">
         <div className="row">
-          <SidebarContent handlePlace={this.handlePlace} />
+          <SidebarContent handlePlace={this.handleClick} />
           <div className="header-map-content">
             <HeaderContent handleClose={this.handleClose} />
             <DescriptionContent
+              className={this.state.className}
+              handleEndAnimation={this.handleEndAnimation}
+              handleStartAnimation={this.handleStartAnimation}
               imageUrl={this.state.imageUrl}
               placeName={this.state.placeName}
               shortDescription={this.state.shortDescription}

@@ -4,11 +4,8 @@ class DescriptionContent extends Component {
   render() {
     return (
       <div
-        className={
-          this.props.showState
-            ? "description-content slide-left show"
-            : "description-content"
-        }
+        className={this.props.className}
+        onAnimationEnd={this.props.handleEndAnimation}
       >
         <div className="place-pict">
           <img
