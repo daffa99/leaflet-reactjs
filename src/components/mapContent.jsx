@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import L from "leaflet";
-import { Map, TileLayer, Marker } from "react-leaflet";
+import { Map, TileLayer, Marker, Tooltip } from "react-leaflet";
 import data from "../data.json";
-import logo from "../images/pin.png";
+import logo from "../images/new-pin.png";
 import "../styles/map.css";
 
-// Add icon into leaflet marker
+// Add icon into leaflet marker and adjust the tooltip so it resemble the custom icon
 let myIcon = L.icon({
   iconUrl: logo,
-  iconSize: [40, 40],
+  iconSize: [30, 45],
   iconAnchor: [20, 40],
-  popupAnchor: [0, -40]
+  popupAnchor: [0, -40],
+  tooltipAnchor: [-9, -26]
 });
-
 /**
  * Map Component that consist of Map and Header, it return map component with props (place data)
  */
@@ -25,7 +25,12 @@ class MapContent extends Component {
           position={[item.latitude, item.longitude]}
           icon={myIcon}
           onClick={() => this.props.handleClick(item)}
-        ></Marker>
+          className="marker-custom"
+        >
+          <Tooltip permanent opacity="1" className="tooltip-custom">
+            <span className="tooltip-span">{item.place_name}</span>
+          </Tooltip>
+        </Marker>
       );
     });
     return (

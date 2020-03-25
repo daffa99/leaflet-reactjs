@@ -3,3 +3,25 @@
   height: 85vh;
   width: 100%;
 }
+/* Change tooltip style with custom classname */
+.tooltip-custom {
+  background-color: #282c37 !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 3px !important;
+}
+/* Remove the white arrow in tooltip */
+.tooltip-custom::before {
+  content: none !important;
+}
+.tooltip-span {
+  color: rgb(254, 254, 254);
+  font-family: "Roboto", sans-serif;
+  font-size: 75%;
+  margin: 0;
+  padding: 0;
+}
+.marker-custom:hover {
+  width: 100px !important;
+  height: 100px !important;
+}

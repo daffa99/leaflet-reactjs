@@ -42,7 +42,7 @@ class MainPage extends Component {
     });
   };
   /**
-   * Function to handle close popup, it can zoom out to the value of 15
+   * Function to handle close popup, it can zoom out to the value of 15 and add animation Fade-out
    */
   handleClose = () => {
     this.setState({
