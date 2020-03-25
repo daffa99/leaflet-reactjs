@@ -1,0 +1,61 @@
+/* CSS for Sidebar Component */
+.sidebar-content {
+  width: 26%;
+  display: flex;
+  -webkit-box-shadow: 10px 2px 6px 1px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 10px 2px 6px 1px rgba(0, 0, 0, 0.16);
+  box-shadow: 10px 2px 6px 1px rgba(0, 0, 0, 0.16);
+  z-index: 1000;
+}
+.sidebar {
+  height: 100vh;
+  width: 30%;
+  background-color: rgb(49, 53, 65);
+}
+.sidebar-menu {
+  height: 100vh;
+  width: 70%;
+  background-color: rgb(40, 44, 55);
+  flex-grow: 1;
+}
+img {
+  width: 35%;
+}
+.list-navigation li {
+  width: 100%;
+  height: 15%;
+  color: rgb(128, 151, 160);
+  font-size: 75%;
+}
+.nav-active {
+  background-color: rgb(114, 205, 210);
+  background-size: 100%;
+}
+.nav-active .nav-caption {
+  color: rgb(254, 254, 254);
+}
+.nav-caption {
+  padding: 0 10px;
+  line-height: 100%;
+}
+select {
+  background-color: transparent;
+  border-style: none;
+  color: rgb(128, 151, 160);
+  appearance: none;
+  -webkit-appearance: none;
+}
+.dropdown-filter-header {
+  height: 12.5%;
+}
+.list-place {
+  color: rgb(254, 254, 254);
+  font-size: 75%;
+}
+.btn-dark {
+  background-color: transparent;
+  border-style: none;
+  width: 100%;
+  text-align: left;
+  font-size: 100%;
+}
