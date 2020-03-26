@@ -7,7 +7,7 @@ const SidebarContent = () => {
     <div className="sidebar">
       <ul className="list-navigation m-auto px-0 list-unstyled">
         <Link to="/browse">
-          <li className="browse nav-active text-center py-4">
+          <li className="browse nav-active text-center py-3">
             <img
               src={require("../images/browse-icon-active.png")}
               alt="browse"
@@ -16,7 +16,7 @@ const SidebarContent = () => {
           </li>
         </Link>
         <Link to="/suggest-attraction">
-          <li className="attraction text-center py-4">
+          <li className="attraction text-center py-3">
             <img
               src={require("../images/attraction-icon.png")}
               alt="attraction"
@@ -25,19 +25,19 @@ const SidebarContent = () => {
           </li>
         </Link>
         <Link to="/videos">
-          <li className="videos text-center py-4">
+          <li className="videos text-center py-3">
             <img src={require("../images/videos-icon.png")} alt="videos" />
             <figcaption className="nav-caption">Videos</figcaption>
           </li>
         </Link>
         <Link to="/blog">
-          <li className="blog text-center py-4">
+          <li className="blog text-center py-3">
             <img src={require("../images/blog-icon.png")} alt="blog" />
             <figcaption className="nav-caption">Blog</figcaption>
           </li>
         </Link>
         <Link to="/about">
-          <li className="about text-center py-4">
+          <li className="about text-center py-3">
             <img src={require("../images/About-icon.png")} alt="about" />
             <figcaption className="nav-caption">About</figcaption>
           </li>

@@ -12,7 +12,11 @@ const MenuContent = props => {
     return (
       <button
         type="button"
-        className="btn btn-dark"
+        className={
+          props.clickedPlace === item.place_name
+            ? "btn btn-dark clicked"
+            : "btn btn-dark"
+        }
         onClick={() => props.handlePlace(item)}
       >
         <li className="py-2">{item.place_name}</li>

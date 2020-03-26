@@ -8,7 +8,7 @@ const HeaderContent = props => {
     <div className="header d-flex align-items-center justify-content-center">
       <div className="row w-100">
         <div className="col-md-9">
-          <h6 className="header-string mx-4 py-2">
+          <h6 className="header-string mx-3 py-1">
             TOP-RATED TOURIST ATTRACTIONS IN SINGAPORE
           </h6>
         </div>

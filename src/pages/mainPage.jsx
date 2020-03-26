@@ -23,7 +23,9 @@ class MainPage extends Component {
     website: "",
     // Handle Animation
     show: false,
-    className: "description-content"
+    className: "description-content",
+    // Handle Clicked Menu
+    clickedPlace: ""
   };
   /**
    * Function to handle click in marker and in sidebar, it can center the map into the clicked marker and selected place in sidebar and zoom it with value 17
@@ -43,8 +45,10 @@ class MainPage extends Component {
       address: item.address,
       website: item.website,
       show: true,
-      className: "description-content slide-left show"
+      className: "description-content slide-left show",
+      clickedPlace: item.place_name
     });
+    console.log(this.state.clickedPlace);
   };
   /**
    * Function to handle close popup, it can zoom out to the value of 15 and add animation Fade-out
@@ -54,7 +58,8 @@ class MainPage extends Component {
       position: [1.28692, 103.85457],
       zoom: 15,
       show: false,
-      className: "description-content hold slide-right"
+      className: "description-content hold slide-right",
+      clickedPlace: ""
     });
   };
   /**
@@ -77,7 +82,10 @@ class MainPage extends Component {
         <div className="row">
           <div className="sidebar-content container-fluid p-0 m-0">
             <SidebarContent />
-            <MenuContent handlePlace={this.handleClick} />
+            <MenuContent
+              handlePlace={this.handleClick}
+              clickedPlace={this.state.clickedPlace}
+            />
           </div>
           <div className="header-map-content">
             <HeaderContent handleClose={this.handleClose} />
