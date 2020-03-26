@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+// Components
 import MapContent from "../components/mapContent";
+import MenuContent from "../components/menuContent";
 import SidebarContent from "../components/sidebarContent";
 import HeaderContent from "../components/headerContent";
 import DescriptionContent from "../components/descriptionContent";
@@ -73,7 +75,10 @@ class MainPage extends Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          <SidebarContent handlePlace={this.handleClick} />
+          <div className="sidebar-content container-fluid p-0 m-0">
+            <SidebarContent />
+            <MenuContent handlePlace={this.handleClick} />
+          </div>
           <div className="header-map-content">
             <HeaderContent handleClose={this.handleClose} />
             <DescriptionContent

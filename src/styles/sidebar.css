@@ -2,10 +2,6 @@
 .sidebar-content {
   width: 26%;
   display: flex;
-  -webkit-box-shadow: 10px 2px 6px 1px rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 10px 2px 6px 1px rgba(0, 0, 0, 0.16);
-  box-shadow: 10px 2px 6px 1px rgba(0, 0, 0, 0.16);
-  z-index: 1000;
 }
 .sidebar {
   height: 100vh;
@@ -17,6 +13,10 @@
   width: 70%;
   background-color: rgb(40, 44, 55);
   flex-grow: 1;
+  -webkit-box-shadow: 10px 2px 6px 1px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 10px 2px 6px 1px rgba(0, 0, 0, 0.16);
+  box-shadow: 10px 2px 6px 1px rgba(0, 0, 0, 0.16);
+  z-index: 1000;
 }
 img {
   width: 35%;
