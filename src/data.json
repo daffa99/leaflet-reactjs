@@ -1,5 +1,6 @@
 [
   {
+    "id": "merlion",
     "place_name": "Merlion",
     "latitude": 1.28692,
     "longitude": 103.85457,
@@ -7,59 +8,11 @@
     "long_description": "Its name combines 'mer' meaning the sea and 'lion'. The fish body represents Singapore's origin as a fishing village when it was called Temasek, which means 'sea town' in Javanese. The lion head represents Singapore's original name-Singapura-meaning 'lion city' or kota singa'",
     "picture_url": "https://www.befreetour.com/img/attraction/merlion-park20191008171420.jpg",
     "website": "http://www.marinabaysands.com/",
-    "address": "10 Bayfront Avenue, Singapore"
+    "address": "10 Bayfront Avenue, Singapore",
+    "extra_places": []
   },
   {
-    "place_name": "Asian Civilisations Museum",
-    "latitude": 1.287466,
-    "longitude": 103.851424,
-    "short_description": "Housed in a historical building by the Singapore River, this museum tells the stories of Asian civilisations through its permanent collections. ",
-    "long_description": "The ACM is the only museum in the region devoted to exploring the artistic heritage of Asia, especially the ancestral cultures of Singaporeans.",
-    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Asian_civilisations_museums_singapore.jpg/300px-Asian_civilisations_museums_singapore.jpg",
-    "website": "https://www.acm.org.sg/",
-    "address": "1 Empress Place, Singapore"
-  },
-  {
-    "place_name": "Clarke Quay",
-    "latitude": 1.290555,
-    "longitude": 103.846188,
-    "short_description": "Clarke Quay is a historical riverside quay in Singapore",
-    "long_description": "Clarke Quay was named after Sir Andrew Clarke, Singapore's second Governor and Governor of the Straits Settlements from 1873 to 1875, who played a key role in positioning Singapore as the main port for the Malay states of Perak, Selangor and Sungei Ujong.",
-    "picture_url": "https://www.capitaland.com/content/dam/capitaland-media-library/retail/Singapore/Singapore/Clarke%20Quay/Clarke%20Quay%20CQ_EDK3156-Edit.jpg.transform/cap-lowres/image.jpg",
-    "website": "https://foodpanda.sg",
-    "address": "3 River Valley Rd, Singapore"
-  },
-  {
-    "place_name": "Fort Canning Park",
-    "latitude": 1.295526,
-    "longitude": 103.845331,
-    "short_description": "Fort Canning Park is a small hill about 48 metres (157 ft) high in the southeast portion of the island city-state of Singapore,",
-    "long_description": "Although small in physical size, it has a long history intertwined with that of the city-state due to its location as the highest elevation within walking distance to the city's civic district within the Downtown Core.",
-    "picture_url": "https://cdn.360stories.com/images/eyJidWNrZXQiOiIzNjAtc3Rvcmllcy1zdGFnaW5nIiwia2V5IjoidXBsb2Fkc1wvcGljdHVyZXNcLzE1MTc5ODg3Mzc4ODk3NTA5ZTg3NjBiNDAzMWNkMmZhYTAxYTU5MzkzZC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwiZml0IjoiY292ZXIifX19",
-    "website": "",
-    "address": "River Valley Rd, Singapore"
-  },
-  {
-    "place_name": "Orchard Road",
-    "latitude": 1.302279,
-    "longitude": 103.837399,
-    "short_description": "Orchard Road is a major 2.2 kilometre-long road in the Central Area of Singapore.",
-    "long_description": "A famous tourist attraction, It is an upscale shopping area of Singapore, with numerous internationally renowned department stores, restaurants and coffeehouses located in its vicinity.",
-    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Presenting..._the_real_ION_%288200217734%29.jpg/800px-Presenting..._the_real_ION_%288200217734%29.jpg",
-    "website": "",
-    "address": "Orchard rd, Singapore"
-  },
-  {
-    "place_name": "Singapore Flyer",
-    "latitude": 1.289332,
-    "longitude": 103.863152,
-    "short_description": "Singapore Flyer is Asia's Largest Giant Observation Wheel",
-    "long_description": "Standing at a stunning 165m from the ground, the Flyer offers you breathtaking, panoramic views of the Marina Bay and beyond. There’s also a range of shops, restaurants and facilities.",
-    "picture_url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/pdvn787mkgdfpwpapjfs/SingaporeFlyerPremiumBeverageFlight.jpg",
-    "website": "https://www.singaporeflyer.com/",
-    "address": "30 Raffles Ave, Singapore"
-  },
-  {
+    "id": "marina-bay-sands",
     "place_name": "Marina Bay Sands",
     "latitude": 1.283099,
     "longitude": 103.860295,
@@ -67,9 +20,15 @@
     "long_description": "The resort includes a 2,561-room hotel, a 120,000-m2 convention-exhibition centre, the 74,000-m2 The Shoppes at Marina Bay Sands mall, a museum two large theatres, 'celebrity chef' restaurants, two floating Crystal Pavilions, art-science exhibits, and the world's largest atrium casino.",
     "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg/800px-Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
     "website": "http://www.gardensbythebay.com.sg/",
-    "address": "Marina Bay Sands, Singapore"
+    "address": "Marina Bay Sands, Singapore",
+    "extra_places": [
+      "ArtScience Museum",
+      "Marina Bay Sands Skypark",
+      "Double Helix Bridge"
+    ]
   },
   {
+    "id": "garden-by-the-bay",
     "place_name": "Gardens By The Bay",
     "latitude": 1.28179,
     "longitude": 103.863954,
@@ -77,9 +36,15 @@
     "long_description": "The park consists of three waterfront gardens: Bay South Garden (in Marina South), Bay East Garden (in Marina East) and Bay Central Garden (in Downtown Core and Kallang).",
     "picture_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Marina_Bay_Sands_from_Gardens_By_The_Bay.jpg",
     "website": "https://www.gardensbythebay.com.sg",
-    "address": "18 Marina Gardens Dr, Singapore"
+    "address": "18 Marina Gardens Dr, Singapore",
+    "extra_places": [
+      "ArtScience Museum",
+      "Marina Bay Sands Skypark",
+      "Double Helix Bridge"
+    ]
   },
   {
+    "id": "chinatown",
     "place_name": "Chinatown",
     "latitude": 1.284193,
     "longitude": 103.843362,
@@ -87,6 +52,71 @@
     "long_description": "Large sections of it have been declared national heritage sites officially designated for conservation by the Urban Redevelopment Authority.",
     "picture_url": "https://www.visitsingapore.com/id_id/see-do-singapore/places-to-see/chinatown/_jcr_content/par-carousel/carousel_detailpage/carousel/item_1.thumbnail.carousel-img.740.416.jpg",
     "website": "",
-    "address": "Chinatown, Singapore"
+    "address": "Chinatown, Singapore",
+    "extra_places": [
+      "ArtScience Museum",
+      "Marina Bay Sands Skypark",
+      "Double Helix Bridge"
+    ]
+  },
+  {
+    "id": "asian-civilisations-museum",
+    "place_name": "Asian Civilisations Museum",
+    "latitude": 1.287466,
+    "longitude": 103.851424,
+    "short_description": "Housed in a historical building by the Singapore River, this museum tells the stories of Asian civilisations through its permanent collections. ",
+    "long_description": "The ACM is the only museum in the region devoted to exploring the artistic heritage of Asia, especially the ancestral cultures of Singaporeans.",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Asian_civilisations_museums_singapore.jpg/300px-Asian_civilisations_museums_singapore.jpg",
+    "website": "https://www.acm.org.sg/",
+    "address": "1 Empress Place, Singapore",
+    "extra_places": []
+  },
+  {
+    "id": "clarke-quay",
+    "place_name": "Clarke Quay",
+    "latitude": 1.290555,
+    "longitude": 103.846188,
+    "short_description": "Clarke Quay is a historical riverside quay in Singapore",
+    "long_description": "Clarke Quay was named after Sir Andrew Clarke, Singapore's second Governor and Governor of the Straits Settlements from 1873 to 1875, who played a key role in positioning Singapore as the main port for the Malay states of Perak, Selangor and Sungei Ujong.",
+    "picture_url": "https://www.capitaland.com/content/dam/capitaland-media-library/retail/Singapore/Singapore/Clarke%20Quay/Clarke%20Quay%20CQ_EDK3156-Edit.jpg.transform/cap-lowres/image.jpg",
+    "website": "https://foodpanda.sg",
+    "address": "3 River Valley Rd, Singapore",
+    "extra_places": []
+  },
+  {
+    "id": "fort-canning-park",
+    "place_name": "Fort Canning Park",
+    "latitude": 1.295526,
+    "longitude": 103.845331,
+    "short_description": "Fort Canning Park is a small hill about 48 metres (157 ft) high in the southeast portion of the island city-state of Singapore,",
+    "long_description": "Although small in physical size, it has a long history intertwined with that of the city-state due to its location as the highest elevation within walking distance to the city's civic district within the Downtown Core.",
+    "picture_url": "https://cdn.360stories.com/images/eyJidWNrZXQiOiIzNjAtc3Rvcmllcy1zdGFnaW5nIiwia2V5IjoidXBsb2Fkc1wvcGljdHVyZXNcLzE1MTc5ODg3Mzc4ODk3NTA5ZTg3NjBiNDAzMWNkMmZhYTAxYTU5MzkzZC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwiZml0IjoiY292ZXIifX19",
+    "website": "",
+    "address": "River Valley Rd, Singapore",
+    "extra_places": []
+  },
+  {
+    "id": "orchard-road",
+    "place_name": "Orchard Road",
+    "latitude": 1.302279,
+    "longitude": 103.837399,
+    "short_description": "Orchard Road is a major 2.2 kilometre-long road in the Central Area of Singapore.",
+    "long_description": "A famous tourist attraction, It is an upscale shopping area of Singapore, with numerous internationally renowned department stores, restaurants and coffeehouses located in its vicinity.",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Presenting..._the_real_ION_%288200217734%29.jpg/800px-Presenting..._the_real_ION_%288200217734%29.jpg",
+    "website": "",
+    "address": "Orchard rd, Singapore",
+    "extra_places": []
+  },
+  {
+    "id": "singapore-flyer",
+    "place_name": "Singapore Flyer",
+    "latitude": 1.289332,
+    "longitude": 103.863152,
+    "short_description": "Singapore Flyer is Asia's Largest Giant Observation Wheel",
+    "long_description": "Standing at a stunning 165m from the ground, the Flyer offers you breathtaking, panoramic views of the Marina Bay and beyond. There’s also a range of shops, restaurants and facilities.",
+    "picture_url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/pdvn787mkgdfpwpapjfs/SingaporeFlyerPremiumBeverageFlight.jpg",
+    "website": "https://www.singaporeflyer.com/",
+    "address": "30 Raffles Ave, Singapore",
+    "extra_places": []
   }
 ]
