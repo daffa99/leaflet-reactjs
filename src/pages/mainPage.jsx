@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import MapContent from "../components/mapContent";
 import SidebarContent from "../components/sidebarContent";
-import "../styles/main.css";
 import HeaderContent from "../components/headerContent";
 import DescriptionContent from "../components/descriptionContent";
+// CSS file for styling
+import "../styles/main.css";
 
 class MainPage extends Component {
+  // Define state
   state = {
     // Map related
     position: [1.28692, 103.85457],
@@ -17,6 +19,7 @@ class MainPage extends Component {
     longDescription: "",
     address: "",
     website: "",
+    // Handle Animation
     show: false,
     className: "description-content"
   };
@@ -93,4 +96,5 @@ class MainPage extends Component {
     );
   }
 }
+
 export default MainPage;
