@@ -52,7 +52,7 @@ class MainPage extends Component {
       position: [1.28692, 103.85457],
       zoom: 15,
       show: false,
-      className: "fade-out"
+      className: "description-content hold slide-right"
     });
   };
   /**
@@ -62,6 +62,10 @@ class MainPage extends Component {
     if (this.state.show) {
       this.setState({
         className: "description-content hold"
+      });
+    } else {
+      this.setState({
+        className: "description-content"
       });
     }
   };
