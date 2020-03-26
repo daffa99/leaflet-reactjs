@@ -12,7 +12,7 @@ const MenuContent = props => {
     return (
       <button
         type="button"
-        class="btn btn-dark"
+        className="btn btn-dark"
         onClick={() => props.handlePlace(item)}
       >
         <li className="py-2">{item.place_name}</li>

@@ -13,13 +13,13 @@ const HeaderContent = props => {
           </h6>
         </div>
         <div className="col-md-3 config text-right">
-          <button class="btn p-1">
+          <button className="btn p-1">
             <img src={require("../images/setting-icon.png")} alt="setting" />
           </button>
-          <button class="btn p-1">
+          <button className="btn p-1">
             <img src={require("../images/quest-icon.png")} alt="quest" />
           </button>
-          <button class="btn p-1" onClick={props.handleClose}>
+          <button className="btn p-1" onClick={props.handleClose}>
             <img src={require("../images/close-icon.png")} alt="close" />
           </button>
         </div>
