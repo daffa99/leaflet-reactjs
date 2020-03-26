@@ -71,33 +71,6 @@ class SidebarContent extends Component {
           </div>
           <ul className="list-place list-unstyled font-weight-bold">
             {listPlaces}
-            {/* <button type="button" class="btn btn-dark">
-              <li className="py-2">Merlion</li>
-            </button>
-            <button type="button" class="btn btn-dark">
-              <li className="py-2">Marina Bay Sands</li>
-            </button>
-            <button type="button" class="btn btn-dark">
-              <li className="py-2">Garden by the Bay</li>
-            </button>
-            <button type="button" class="btn btn-dark">
-              <li className="py-2">China Town</li>
-            </button>
-            <button type="button" class="btn btn-dark">
-              <li className="py-2">Asian Civilisations Museum</li>
-            </button>
-            <button type="button" class="btn btn-dark">
-              <li className="py-2">Clarke Quay</li>
-            </button>
-            <button type="button" class="btn btn-dark">
-              <li className="py-2">Fort Canning Park</li>
-            </button>
-            <button type="button" class="btn btn-dark">
-              <li className="py-2">Singapore Flyer</li>
-            </button>
-            <button type="button" class="btn btn-dark">
-              <li className="py-2">Orchard Road</li>
-            </button> */}
           </ul>
         </div>
       </div>
