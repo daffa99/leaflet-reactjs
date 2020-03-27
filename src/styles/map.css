@@ -1,6 +1,6 @@
 /* CSS for Map Component */
 .map {
-  height: 85vh;
+  height: 97vh;
   width: 100%;
 }
 /* Change tooltip style with custom classname */
@@ -10,7 +10,7 @@
   box-shadow: none !important;
   padding: 3px !important;
 }
-/* Remove the white arrow in tooltip */
+/* Remove the white arrow in tooltip. Source = https://stackoverflow.com/questions/3012716/css-how-to-remove-pseudo-elements-after-before */
 .tooltip-custom::before {
   content: none !important;
 }
@@ -20,8 +20,5 @@
   font-size: 75%;
   margin: 0;
   padding: 0;
-}
-.marker-custom:hover {
-  width: 100px !important;
-  height: 100px !important;
+  font-weight: 500;
 }

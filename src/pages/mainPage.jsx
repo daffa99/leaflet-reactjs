@@ -1,11 +1,15 @@
 import React, { Component } from "react";
+// Components
 import MapContent from "../components/mapContent";
+import MenuContent from "../components/menuContent";
 import SidebarContent from "../components/sidebarContent";
-import "../styles/main.css";
 import HeaderContent from "../components/headerContent";
 import DescriptionContent from "../components/descriptionContent";
+// CSS file for styling
+import "../styles/main.css";
 
 class MainPage extends Component {
+  // Define state
   state = {
     // Map related
     position: [1.28692, 103.85457],
@@ -17,8 +21,11 @@ class MainPage extends Component {
     longDescription: "",
     address: "",
     website: "",
+    // Handle Animation
     show: false,
-    className: "description-content"
+    className: "description-content",
+    // Handle Clicked Menu
+    clickedPlace: ""
   };
   /**
    * Function to handle click in marker and in sidebar, it can center the map into the clicked marker and selected place in sidebar and zoom it with value 17
@@ -38,8 +45,10 @@ class MainPage extends Component {
       address: item.address,
       website: item.website,
       show: true,
-      className: "description-content slide-left show"
+      className: "description-content slide-left show",
+      clickedPlace: item.place_name
     });
+    console.log(this.state.clickedPlace);
   };
   /**
    * Function to handle close popup, it can zoom out to the value of 15 and add animation Fade-out
@@ -49,7 +58,8 @@ class MainPage extends Component {
       position: [1.28692, 103.85457],
       zoom: 15,
       show: false,
-      className: "fade-out"
+      className: "description-content hold slide-right",
+      clickedPlace: ""
     });
   };
   /**
@@ -60,13 +70,23 @@ class MainPage extends Component {
       this.setState({
         className: "description-content hold"
       });
+    } else {
+      this.setState({
+        className: "description-content"
+      });
     }
   };
   render() {
     return (
       <div className="container-fluid">
         <div className="row">
-          <SidebarContent handlePlace={this.handleClick} />
+          <div className="sidebar-content container-fluid p-0 m-0">
+            <SidebarContent />
+            <MenuContent
+              handlePlace={this.handleClick}
+              clickedPlace={this.state.clickedPlace}
+            />
+          </div>
           <div className="header-map-content">
             <HeaderContent handleClose={this.handleClose} />
             <DescriptionContent
@@ -93,4 +113,5 @@ class MainPage extends Component {
     );
   }
 }
+
 export default MainPage;

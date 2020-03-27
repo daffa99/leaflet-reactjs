@@ -5,7 +5,7 @@ import data from "../data.json";
 import logo from "../images/new-pin.png";
 import "../styles/map.css";
 
-// Add icon into leaflet marker and adjust the tooltip so it resemble the custom icon
+// Add a custom icon into leaflet marker and adjust the tooltip so it resemble the custom icon
 let myIcon = L.icon({
   iconUrl: logo,
   iconSize: [30, 45],
@@ -33,6 +33,7 @@ class MapContent extends Component {
         </Marker>
       );
     });
+    // The code below was initially copy-pasted from react-leaflet example here: https://github.com/PaulLeCam/react-leaflet/blob/master/example/components/simple.js Then, I did some change to adjust to the case given
     return (
       <div className="map-content">
         <Map
