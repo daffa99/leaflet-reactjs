@@ -12,14 +12,18 @@ const DescriptionContent = props => {
       <div className="place-title">
         <h6 className="py-2 px-4">{props.placeName}</h6>
       </div>
-      <div className="place-description">
-        <p className="short-description pt-1 px-4">{props.shortDescription}</p>
-        <p className="long-description px-4">{props.longDescription}</p>
-      </div>
-      <div className="place-information px-4">
-        <span>{props.address}</span>
-        <br />
-        <span>{props.website}</span>
+      <div className="place-description-all">
+        <div className="place-description">
+          <p className="short-description pt-1 px-4">
+            {props.shortDescription}
+          </p>
+          <p className="long-description px-4">{props.longDescription}</p>
+        </div>
+        <div className="place-information px-4">
+          <span>{props.address}</span>
+          <br />
+          <span>{props.website}</span>
+        </div>
       </div>
     </div>
   );
