@@ -15,7 +15,7 @@ const SidebarContent = () => {
             <figcaption className="nav-caption">Browse</figcaption>
           </li>
         </Link>
-        <Link to="/suggest-attraction">
+        <Link to="/">
           <li className="attraction text-center py-3">
             <img
               src={require("../images/attraction-icon.png")}
@@ -24,19 +24,19 @@ const SidebarContent = () => {
             <figcaption className="nav-caption">Suggest Attraction</figcaption>
           </li>
         </Link>
-        <Link to="/videos">
+        <Link to="/">
           <li className="videos text-center py-3">
             <img src={require("../images/videos-icon.png")} alt="videos" />
             <figcaption className="nav-caption">Videos</figcaption>
           </li>
         </Link>
-        <Link to="/blog">
+        <Link to="/">
           <li className="blog text-center py-3">
             <img src={require("../images/blog-icon.png")} alt="blog" />
             <figcaption className="nav-caption">Blog</figcaption>
           </li>
         </Link>
-        <Link to="/about">
+        <Link to="/">
           <li className="about text-center py-3">
             <img src={require("../images/About-icon.png")} alt="about" />
             <figcaption className="nav-caption">About</figcaption>

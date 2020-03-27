@@ -27,7 +27,7 @@ const MenuContent = props => {
             <li className="py-2">{item.place_name}</li>
           </button>
           <a href={`#${item.id}`} data-toggle="collapse">
-            <i class="fa fa-fw fa-sort-down"></i>
+            <i className="fa fa-fw fa-sort-down"></i>
           </a>
           <div className="collapse" id={item.id}>
             <ul className="extra-places list-unstyled">{extraPlaces}</ul>
