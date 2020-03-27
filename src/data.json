@@ -19,7 +19,7 @@
     "short_description": "Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore.",
     "long_description": "The resort includes a 2,561-room hotel, a 120,000-m2 convention-exhibition centre, the 74,000-m2 The Shoppes at Marina Bay Sands mall, a museum two large theatres, 'celebrity chef' restaurants, two floating Crystal Pavilions, art-science exhibits, and the world's largest atrium casino.",
     "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg/800px-Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
-    "website": "http://www.gardensbythebay.com.sg/",
+    "website": "http://www.marinabaysands.com/",
     "address": "Marina Bay Sands, Singapore",
     "extra_places": [
       "ArtScience Museum",
@@ -35,7 +35,7 @@
     "short_description": "The Gardens by the Bay is a nature park spanning 101 hectares (250 acres) in the Central Region of Singapore, adjacent to the Marina Reservoir.",
     "long_description": "The park consists of three waterfront gardens: Bay South Garden (in Marina South), Bay East Garden (in Marina East) and Bay Central Garden (in Downtown Core and Kallang).",
     "picture_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Marina_Bay_Sands_from_Gardens_By_The_Bay.jpg",
-    "website": "https://www.gardensbythebay.com.sg",
+    "website": "http://www.marinabaysands.com/",
     "address": "18 Marina Gardens Dr, Singapore",
     "extra_places": [
       "ArtScience Museum",
@@ -51,7 +51,7 @@
     "short_description": "Chinatown is a subzone and ethnic enclave located within the Outram district in the Central Area of Singapore.",
     "long_description": "Large sections of it have been declared national heritage sites officially designated for conservation by the Urban Redevelopment Authority.",
     "picture_url": "https://www.visitsingapore.com/id_id/see-do-singapore/places-to-see/chinatown/_jcr_content/par-carousel/carousel_detailpage/carousel/item_1.thumbnail.carousel-img.740.416.jpg",
-    "website": "",
+    "website": "http://www.chinatown.sg/",
     "address": "Chinatown, Singapore",
     "extra_places": [
       "ArtScience Museum",
@@ -91,7 +91,7 @@
     "short_description": "Fort Canning Park is a small hill about 48 metres (157 ft) high in the southeast portion of the island city-state of Singapore,",
     "long_description": "Although small in physical size, it has a long history intertwined with that of the city-state due to its location as the highest elevation within walking distance to the city's civic district within the Downtown Core.",
     "picture_url": "https://cdn.360stories.com/images/eyJidWNrZXQiOiIzNjAtc3Rvcmllcy1zdGFnaW5nIiwia2V5IjoidXBsb2Fkc1wvcGljdHVyZXNcLzE1MTc5ODg3Mzc4ODk3NTA5ZTg3NjBiNDAzMWNkMmZhYTAxYTU5MzkzZC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwiZml0IjoiY292ZXIifX19",
-    "website": "",
+    "website": "https://www.visitsingapore.com",
     "address": "River Valley Rd, Singapore",
     "extra_places": []
   },
@@ -103,7 +103,7 @@
     "short_description": "Orchard Road is a major 2.2 kilometre-long road in the Central Area of Singapore.",
     "long_description": "A famous tourist attraction, It is an upscale shopping area of Singapore, with numerous internationally renowned department stores, restaurants and coffeehouses located in its vicinity.",
     "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Presenting..._the_real_ION_%288200217734%29.jpg/800px-Presenting..._the_real_ION_%288200217734%29.jpg",
-    "website": "",
+    "website": "https://www.orchardroad.org/",
     "address": "Orchard rd, Singapore",
     "extra_places": []
   },

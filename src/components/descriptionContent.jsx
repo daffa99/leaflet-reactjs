@@ -20,9 +20,15 @@ const DescriptionContent = props => {
           <p className="long-description px-4">{props.longDescription}</p>
         </div>
         <div className="place-information px-4">
-          <span>{props.address}</span>
+          <span>
+            <i className="fa fa-fw fa-map-marker location-colored"></i>
+            {props.address}
+          </span>
           <br />
-          <span>{props.website}</span>
+          <span>
+            <i className="fa fa-fw fa-globe web-colored"></i>
+            {props.website}
+          </span>
         </div>
       </div>
     </div>

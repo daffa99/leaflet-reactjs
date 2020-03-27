@@ -25,11 +25,15 @@
   -moz-box-shadow: -8px 2px 6px 1px rgba(0, 0, 0, 0.16);
   box-shadow: -8px 2px 6px 1px rgba(0, 0, 0, 0.16);
 }
+/* Hide scroll bar on every browser. Source = https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll */
 .place-description-all {
   height: 50vh;
   overflow: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.place-description-all::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 /* Class to hide the description with animation */
 .fade-out {
@@ -70,13 +74,20 @@
 }
 .place-description p {
   font-family: "Roboto", sans-serif;
-  font-size: 75%;
+  font-size: 70%;
   color: rgb(254, 254, 254);
 }
 .place-information span {
   font-family: "Roboto", sans-serif;
-  font-size: 75%;
+  font-size: 70%;
   color: rgb(254, 254, 254);
+}
+/* icon color */
+.location-colored {
+  color: #66d0d5;
+}
+.web-colored {
+  color: #7bea1f;
 }
 /* ADD Animation */
 .slide-left {
